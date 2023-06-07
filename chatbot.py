@@ -6,6 +6,7 @@ from keras.models import load_model
 import nltk
 from nltk.stem import WordNetLemmatizer
 
+nltk.download('punkt')
 lemmatizer = WordNetLemmatizer()
 intents_file = "intents.json"
 data = {"intents": []}
