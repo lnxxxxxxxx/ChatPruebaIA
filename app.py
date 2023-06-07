@@ -3,7 +3,7 @@ from flask_cors import CORS
 import chatbot
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": ["https://chatbot-cat-ia.vercel.app", "http://localhost:3000"]}})
 
 @app.route('/chat', methods=['GET'])
 def default():
