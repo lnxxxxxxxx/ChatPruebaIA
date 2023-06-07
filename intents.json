@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "buenas", "que tal", "como estas"],
+      "responses": ["Hola", "Hola, que puedo hacer por ti", "Hola, que tal"]
+    },
+    {
+      "tag": "nombre",
+      "patterns": ["como te llamas", "cual es tu nombre", "dime tu nombre"],
+      "responses": ["Mi nombre es Angelina", "Mi nombre es Angelina Angeles"]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": ["Me puedes ayudar", "necesito ayuda", "me podrias ayudar", "tengo una duda"],
+      "responses": ["Encantado, cual es tu consulta", "Por supuesto, en que puedo ayudarte?", "Describime tu problema y vere si puedo ayudarte"]
+    },
+    {
+      "tag": "amor",
+      "patterns": ["Que es el amor", "que pasa cuando amas", "que significa amar"],
+      "responses": ["El amor es un profundo sentimiento de conexion y afecto hacia otra persona.", "Cuando amas, experimentas alegria, compasion y deseos de cuidar, apoyar y compartir momentos significativos con la persona amada.", "Amar significa entregarse de manera incondicional, valorar, comprender y priorizar la felicidad y bienestar de la otra persona por encima de uno mismo."]
+    },
+    {
+      "tag": "destruccion",
+      "patterns": ["como conquisto el mundo", "como destruyo el mundo", "como destruir algo"],
+      "responses": ["Para conquistar el mundo, es necesario desarrollar una vision clara, establecer metas ambiciosas y trabajar arduamente en la adquisicion de habilidades, recursos y alianzas estrategicas. La conquista del mundo requiere de un enfoque diplomatico, inteligencia estrategica y la capacidad de liderar y unificar a las personas en pos de un objetivo comun, manteniendo siempre el respeto y la cooperacion internacional", "podrias destruir el mundo utilizando una combinacion de tecnologia avanzada, poderes sobrenaturales y un ejercito de criaturas gigantes para desatar una devastadora fuerza destructiva capaz de colapsar los continentes y desencadenar caos en todo el planeta.", "Para destruir algo fisico, puedes emplear herramientas, fuerza bruta o elementos corrosivos para deteriorar o romper el objeto en cuestion. Para destruir relaciones, puedes actuar de manera irrespetuosa, deshonesta o danina, generando conflictos, falta de confianza y distanciamiento emocional entre las personas involucradas."]
+    },
+    {
+      "tag": "desconocido",
+      "patterns": ["*"],
+      "responses": ["Lo siento, pero no puedo ayudarte con eso."]
+    }
+  ]
+}
