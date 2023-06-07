@@ -7,6 +7,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 
 nltk.download('punkt')
+nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer()
 intents_file = "intents.json"
 data = {"intents": []}
